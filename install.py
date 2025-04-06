@@ -3,13 +3,12 @@
 from weecfg.extension import ExtensionInstaller
 
 def loader():
-    """Extension loader."""
     return MQTTDriverInstaller()
 
 class MQTTDriverInstaller(ExtensionInstaller):
     def __init__(self):
         super(MQTTDriverInstaller, self).__init__(
-            version="0.3",
+            version="0.5",
             name="MQTTDriver",
             description="WeeWX driver that subscribes directly to MQTT messages.",
             author="kroy",
