@@ -41,5 +41,5 @@ I wrote this because of the ease of integrating random ESP32 devices.
 
 # Install
 
-`weectl extension install weewx-mqtt-0.3.zip`
+`weectl extension install weewx-mqtt-0.5.zip`
 
